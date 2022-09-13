@@ -107,6 +107,10 @@ hr{
   padding: 0 15%;
 }
 
+.sticker{
+  width: 70px;
+}
+
 .gif{
   width: 100%;
 }
@@ -174,5 +178,8 @@ hr{
   .bottom-cloud {
     left: 14%;
     bottom: 30%;
+  }
+  .sticker{
+    width: 40px;
   }
 }
