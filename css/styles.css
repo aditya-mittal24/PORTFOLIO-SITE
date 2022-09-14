@@ -195,6 +195,9 @@ hr{
   .contact-me{
     width: 65%;
   }
+  .btn{
+    font-size: 16px;
+  }
   #skills{
     padding: 3% 15%;
   }
