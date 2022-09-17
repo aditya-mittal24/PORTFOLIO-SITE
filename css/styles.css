@@ -23,17 +23,15 @@ h2 {
   margin-top: 0;
 }
 
-h3 {
+h3, h4, a {
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
 }
-h4{
+h5{
   font-family: 'Montserrat', sans-serif;
-  color: #11999E;
+  padding-top: 2px;
 }
 a{
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
 }
@@ -51,6 +49,11 @@ hr{
   border-bottom: none;
   width: 6%;
   margin: 100px auto;
+}
+
+/* Headings */
+.headings{
+  font-size:2.5rem;
 }
 
 /* Header section */
@@ -118,6 +121,24 @@ hr{
   margin: auto;
 }
 
+/* Education section */
+
+.education{
+  padding: 3% 10% 0 15%;
+}
+
+.institute{
+  text-align: left;
+}
+.details{
+  text-align: left;
+  padding-left: 14%;
+}
+
+.education-row{
+  margin-top: 3%;
+}
+
 /* Skills section */
 
 #skills{
@@ -131,6 +152,46 @@ hr{
 
 .sports{
   width: 100%;
+}
+
+/* Projects section */
+#projects{
+  padding: 3% 10% 0;
+}
+
+.card{
+  margin: 10% auto 0;
+  width: 18.2rem;
+}
+
+.card-title{
+  font-size: 1.3rem;
+}
+
+.card-title:hover{
+  text-decoration: underline;
+  color: #5CB8E4;
+  font-size: 1.35rem;
+}
+
+.card-img-top:hover{
+  width: 100.5%;
+  height: auto;
+}
+
+#projects a{
+  margin: 0;
+}
+
+#projects hr{
+  display: block;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  width: 80%;
 }
 
 /* Contact me section */
@@ -193,13 +254,24 @@ hr{
     width: 60%;
   }
   .contact-me{
-    width: 73%;
+    width: 70%;
   }
   .btn{
-    font-size: 16px;
-    padding: 10px 10px;
+    font-size: 14px;
+    padding: 10px 8px;
   }
   #skills{
     padding: 3% 15%;
+  }
+}
+@media (max-width: 768px){
+  .details{
+    text-align: left;
+  }
+  .institute{
+    text-align: left;
+  }
+  .education-row{
+    margin-top: 5%;
   }
 }
