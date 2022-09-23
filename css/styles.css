@@ -101,6 +101,8 @@ hr{
   height: auto;
 }
 
+
+
 /* Middle container */
 
 .middle-container{
@@ -162,6 +164,18 @@ hr{
 .card{
   margin: 10% auto 0;
   width: 18.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: -8px 5px 8px gray;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.card:hover {
+  top: -20px;
 }
 
 .card-title{
@@ -172,11 +186,6 @@ hr{
   text-decoration: underline;
   color: #5CB8E4;
   font-size: 1.35rem;
-}
-
-.card-img-top:hover{
-  width: 100.5%;
-  height: auto;
 }
 
 #projects a{
